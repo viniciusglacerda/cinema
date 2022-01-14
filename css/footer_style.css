@@ -1,0 +1,152 @@
+footer{
+    background-color: #363636;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+#promo{
+    width: 100%;
+    height: 80px;
+    background-color: #8B0000;
+    display: flex;
+    align-items: center;
+}
+#ali{
+    margin: auto;
+}
+#ali h1{
+    font-size: 20px;
+    float: left;
+    margin-right: 5vw;
+}
+#ali span{
+    font-size: 20px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 8px;
+    float: right;
+}
+#ali span:hover{
+    border-color: #FFFAFA;
+    background-color: #FFFAFA;
+    color: #8B0000;
+    cursor: pointer;
+}
+#social{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    width: auto;
+    margin-right: 10vw;
+    border-bottom-style: solid;
+    border-bottom-color: #FFFAFA;
+    border-bottom-width: 1px;
+}
+.footer_icon{
+    display: flex;
+}
+.footer_icon img:hover{
+    cursor: pointer;
+}
+.footer_icon p:hover{
+    cursor: pointer;
+}
+.footer_icon img{
+    margin: 20px;
+    width: 50px;
+    float: left;
+}
+
+.container_link{
+    display: block;
+    float: right;
+    margin-right: 7vw;
+}
+.sup{
+    padding: 0px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: #FFFAFA;
+}
+.inf{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    color: #FFFAFA;
+}
+#one:hover{
+    background-color: #6A5ACD;
+}
+#two:hover{
+    background-color: #6495ED;
+}
+#three:hover{
+    background-color: #FFA500;
+}
+#four:hover{
+    background-color: #FF0000;
+}
+#container_1{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-bottom-style: solid;
+    border-bottom-color: #FFFAFA;
+    border-bottom-width: 1px;
+}
+#container_1 div{
+    margin-left: 6vw;
+}
+#container_1 p{
+    color: #FFFAFA;
+    font-size: 14px;
+}
+#container_1 p:hover{
+    cursor: pointer;
+    color: #FF0000;
+}
+.title_sub{
+    font-size: 18px;
+}
+#container_2{
+    display: flex;
+    margin-bottom: 50px;
+}
+footer #logo{
+    padding-left: 6vw;
+}
+#logo h1{
+    margin-bottom: 0px;
+    padding: 0px;
+    color: #FFFAFA;
+}
+#logo p{
+    margin-top: 0px;
+    padding: 0px;
+    color: #FFFAFA;
+}
+#rod{
+    display: flex;
+    align-items: center;
+}
+#rod p{
+    margin-left: 5vw;
+    color: #FFFAFA;
+}
+#rod span{
+    margin-left: 5vw;
+    color: #FFFAFA;
+}
+#rod p:hover{
+    cursor: pointer;
+    color: #FF0000;
+}

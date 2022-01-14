@@ -1,0 +1,92 @@
+#container_show{
+    width: 80vw;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50vh;
+    align-items: center;
+    display: block;
+}
+#guia{ 
+    display: block;
+    text-align: left;
+    margin: 15px;
+}
+#guia span{
+    color: #FFFAFA;
+    font-size: 18px;
+    margin-right: 30px;    
+}
+#container_prog{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: block;
+}
+#container_prog_days{
+    display: flex;
+    margin-left: 27vw;
+}
+.prog_days{
+    color: #FFFAFA;
+    padding: 10px;
+    margin-left: 5px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.prog_days:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #FFFAFA;
+}
+#container_buy{
+    margin: auto;
+    text-align: center;
+    width: 50vw;
+}
+#container_buy span{
+    align-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #FFFAFA;   
+}
+#span_1{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+#span_2{
+    float: right;
+    color: #8B0000;
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+}
+#span_2:hover{
+    cursor: pointer;
+    background-color: #8B0000;
+}
+#container_sal{
+    align-items: center;
+    align-content: center;
+    display: block;
+    width: 60vw;
+    margin-left: 10vw;
+    float: left;
+    box-shadow: 0px 0px 8px 0.1px #FFFAFA;
+}
+#container_sal th{
+    border:solid #FFFAFA 1px;
+    color: #FFFAFA;
+    border-radius: 2px;
+    padding: 12px;
+}
+#container_sal td{
+    color: #FFFAFA;
+    width: 30vw;
+    padding: 12px;
+    border-bottom: solid #FFFAFA 1px;
+}

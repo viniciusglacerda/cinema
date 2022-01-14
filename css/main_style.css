@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+#div_slide{
+    margin-left: 8vw;
+}
+#slide{
+    width: 80vw;
+    display: flex;
+    overflow: hidden;
+}
+#slide img{
+    margin-left: 8vw;
+    width: 80vw;
+    height: 40vw;
+}
+#span span{
+    width: 5px;
+    margin: 12px;
+    background-color: #fff;
+    border: solid #fff 2px;
+    border-radius: 50%;
+}
+#container_main{
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.imgs img{
+    width: 10vw;
+    margin: 20px;
+    border-radius: 4px;
+}
+.imgs img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

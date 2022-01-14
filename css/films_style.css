@@ -1,0 +1,115 @@
+.containers{
+    padding: 0px;
+    margin: auto;
+    display: block;
+}
+#path{
+    color: #FFFAFA;
+    margin-left: 10vw;
+}
+#path span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-bottom: 0%;
+}
+#path h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 10px;
+}
+#trailer{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    align-items: center;
+}
+#cover{
+    width: 100%;
+}
+#btn_trailer{
+    position: relative;
+    top: -43vw;
+    left: 45vw;
+    align-self: center;
+    width: 100px;
+}
+#btn_trailer:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#container_profile{
+    position: relative;
+    top: -13vw;
+    margin-left: 10vw;
+    display: flex;
+}
+#container_profile img{
+    width: 15vw;
+}
+#container_profile div{
+    display: block;
+    margin-left: 15px;
+}
+#film_name{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFAFA;
+}
+#info_div{
+    display: flex;
+    margin-top: 60px;
+    align-content: center;
+}
+#info_div img{
+    width: 30px;
+    float: left;
+    margin-right: 20px;
+}
+#info_div span{
+    color: #FFFAFA;
+    margin-right: 20px;
+    padding: 4px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    float: right;
+}
+#sinopse{
+    position: relative;
+    top: -150px;
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#sinopse_p{
+    color: #FFFAFA;
+    font-size: 16px;
+    padding: 0%;
+    margin: 0%;
+}
+#title_sinop{
+    color: #8B0000;
+    font-size: 22px;
+    font-style: bold;
+    padding: 0%;
+    margin: 0%;
+}
+#container_info{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#container_info span{
+    color: #FFFAFA;
+    margin-left: 30px;
+}
+.img_ico{
+    width: 20px;
+    padding-right: 8px;
+}
