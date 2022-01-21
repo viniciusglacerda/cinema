@@ -1,0 +1,262 @@
+body{
+    width: 100vw;
+    border: 0px;
+    padding: 0px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+header{
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 70px;
+    width: 100vw;
+    height: 80px;
+    background-color: #383838;
+    text-align: center;
+    border-bottom: solid 1px #000;
+    box-shadow: 0px 0px 3px 1px #888888;
+}
+#logo{
+    padding-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0000b7;
+}
+#logo p, #logo h1{
+    margin: 0px;
+}
+
+
+/* CSS register*/
+#container{
+    width: 70vw;
+    margin: auto;
+    overflow: hidden;
+}
+.alert{
+    width: 66vw;
+    margin: 4px;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+#failed{
+    color: #b30000;
+    background-color: #fa31316e;
+}
+#success{
+    color: #069e06;
+    background-color: #34f73471;
+}
+#container p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #6d6c6c;
+}
+form input{
+    margin: 5px;
+    margin-bottom: 8px;
+    height: 2vw;
+}
+#nome, #email, #passs{
+    width: 32vw;
+}
+#passs{
+    margin-right: 30vw;
+}
+#mess, #diaa{
+    width: 8.9vw;
+}
+#cpf{
+    width: 11vw;
+}
+
+#link_cep{
+    margin-right: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    border: none;
+    color: #1E90FF;
+}
+#log{
+    width: 40vw;
+}
+#cidade{
+    margin-right: 100%;
+    margin-bottom: 30px;
+}
+#termos{
+    margin-right: 100%;
+    font-size: 12px;
+    color: #5c5c5c;
+}
+.submit{
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.submit input{
+    width: 150px;
+    height: 50px;
+    margin-left: 5px;
+}
+#back{
+    color: #ff0000b7;
+    background-color: #FFFAFA;
+    border: solid #ff0000b7 1px;
+    width: 150px;
+    height: 50px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+#back:hover{
+    color: #FFFAFA;
+    background-color: #ff0000b7;
+    border: hidden;
+    cursor: pointer;
+}
+#continue{
+    color:#FFFAFA;
+    background-color: #ff0000b7;
+    border: hidden;
+}
+#continue:hover{
+    background-color: #a00303;
+    cursor: pointer;
+}
+
+
+/*CSS Login*/
+#div_body{
+    width: 70vw;
+    margin: auto;
+}
+#div_social{
+    display: block;
+    width: 20vw;
+    margin-bottom: 30px;
+}
+#span_social{
+    background-color: #FFFAFA;
+    color: #ff0000b7;
+    display: flex;
+    width: 25.5vw;
+    border: solid #ff0000b7 1px;
+    align-items: center;
+}
+#span_social:hover{
+    cursor: pointer;
+    background-color: #ff000091;
+    color: #FFFAFA;
+}
+#span_social img{
+    margin-left: 10px;
+    width: 2vw;
+    padding: 10px;
+}
+#span_social span{
+    font-size: 18px;
+}
+.span_title{
+    color: #505050;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div_span{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#sub_titlep{
+    color: #b8037ccc;
+}
+#master{
+    display: flex;
+    border-top: solid #888888 1px;
+}
+.middle{
+    width: 35vw;
+}
+.input{
+    width: 25vw;
+    height: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+#div_termos{
+    width: 25vw;
+    margin-bottom: 20px;
+}
+#termos{
+    font-size: 12px;
+}
+#form_btn{
+    border: none;
+    margin-bottom: 50px;
+    width: 25vw;
+    height: 35px;
+    background-color: #ff0000b7;
+    color: #FFFAFA;
+}
+#form_btn:hover{
+    cursor: pointer;
+}
+#div_sub{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.div_cartao{
+    display: flex;
+    margin-left: 12px;
+}
+.sub_img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.sub_span{
+    font-size: 12px;
+    color: #cd0089;
+    font-weight: bold;
+}
+#div_link_reg{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #ff0000b7;
+    border: solid #ff0000b7 1px;
+    padding: 14px;
+    width: 10vw;
+}
+#div_link_reg:hover{
+    cursor: pointer;
+}
+#link_reg{
+    text-decoration: none;
+    color: #FFFAFA;
+}
+footer{
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    border-top: solid #888888 1px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+}
+#logo_footer{
+    font-size: 8px;
+    margin-right: 50px;
+}
+#logo_footer h1, p{
+    margin: 0px;
+    font-weight: bold;
+}
+#logo_footer, #rod{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #505050;
+}

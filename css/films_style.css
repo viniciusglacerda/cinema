@@ -1,3 +1,6 @@
+body{
+    background-color: #000;
+}
 .containers{
     padding: 0px;
     margin: auto;
@@ -55,7 +58,7 @@
 }
 #film_name{
     font-family: 'Roboto', sans-serif;
-    color: #FFFAFA;
+    color: #b30000;
 }
 #info_div{
     display: flex;
@@ -68,7 +71,7 @@
     margin-right: 20px;
 }
 #info_div span{
-    color: #FFFAFA;
+    color: #b30000;
     margin-right: 20px;
     padding: 4px;
     border: 1px;
@@ -80,10 +83,10 @@
     position: relative;
     top: -150px;
     padding: 0%;
-    margin: 0%;
+    margin: auto;
     display: block;
-    width: 100%;
-    text-align: center;
+    width: 70vw;
+    text-align: left;
 }
 #sinopse_p{
     color: #FFFAFA;
